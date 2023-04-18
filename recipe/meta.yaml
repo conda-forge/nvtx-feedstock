@@ -13,6 +13,8 @@ source:
 build:
   number: 2
   script: {{ PYTHON }} -m pip install . -vv
+  ignore_run_exports_from:
+    - cuda-nvtx
 
 requirements:
   build:
@@ -21,7 +23,7 @@ requirements:
     - cython
     - pip
     - python
-    - nvtx-c
+    - cuda-nvtx
   run:
     - python
 
