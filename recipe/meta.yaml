@@ -11,17 +11,19 @@ source:
   sha256: 58b89cd69079fda1ceef8441eec5c5c189d6a1ff94c090a3afe03aedd0bbd140
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
   host:
     - cython
+    - nvtx-c
     - pip
     - python
-    - nvtx-c
+    - setuptools
   run:
     - python
 
