@@ -17,11 +17,13 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
   host:
     - cython
+    - nvtx-c
     - pip
     - python
-    - nvtx-c
+    - setuptools
   run:
     - python
 
