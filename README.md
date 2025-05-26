@@ -332,5 +332,6 @@ Feedstock Maintainers
 
 * [@bdice](https://github.com/bdice/)
 * [@conda-forge/cuda](https://github.com/orgs/conda-forge/teams/cuda/)
+* [@guysz-nvidia](https://github.com/guysz-nvidia/)
 * [@shwina](https://github.com/shwina/)
 
