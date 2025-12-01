@@ -1,5 +1,5 @@
 {% set name = "nvtx" %}
-{% set version = "0.2.13" %}
+{% set version = "0.2.14" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nvtx-{{ version }}.tar.gz
-  sha256: 9db7ba135168e14e1f038866100bf8ed42d3e00b404e9bc7b6280ee3af828b92
+  sha256: 12945242a31bde70b1f15cae867f8706bdff290e2f808a11738e03ebefdf847f
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
