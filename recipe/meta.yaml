@@ -9,6 +9,8 @@ package:
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/nvtx-{{ version }}.tar.gz
   sha256: 252fdb870308be4a2beecb3ed174b1d59099eeb63c883f269944a765ce5f7720
+  patches:
+    - char8_t-glibc.patch
 
 build:
   number: 1
