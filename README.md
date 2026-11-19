@@ -75,6 +75,13 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nvtx-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.15.____cp315" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>osx_64_python3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10812&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/nvtx-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.15.____cp315t" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -250,5 +257,6 @@ Feedstock Maintainers
 * [@bdice](https://github.com/bdice/)
 * [@conda-forge/cuda](https://github.com/orgs/conda-forge/teams/cuda/)
 * [@guysz-nvidia](https://github.com/guysz-nvidia/)
+* [@jkreibich-nvidia](https://github.com/jkreibich-nvidia/)
 * [@shwina](https://github.com/shwina/)
 
